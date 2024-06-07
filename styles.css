@@ -8,10 +8,11 @@ body {
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(to right, #ffecd2, #fcb69f);
+    position: relative;
 }
 
 canvas {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,7 +29,7 @@ canvas {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 500px;
-    width: 100%;
+    width: 90%;
 }
 
 h1 {
