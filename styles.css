@@ -6,9 +6,12 @@ body {
     min-height: 100vh;
     background: linear-gradient(to right, #ffecd2, #fcb69f);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-canvas {
+#particles-js {
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +30,7 @@ canvas {
     text-align: center;
     max-width: 500px;
     width: 90%;
-    margin: auto;
+    margin: 20px;
 }
 
 h1 {
