@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿body {
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -80,4 +79,3 @@ p {
 .button:hover {
     background-color: #ff5a4d;
 }
->>>>>>> origin/main
