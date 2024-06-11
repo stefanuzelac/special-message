@@ -52,11 +52,10 @@ body {
     width: 100%;
     max-width: 375px;
     /* 500px * (1350/1800) to maintain the aspect ratio */
-    max-height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .image-container img {
@@ -69,12 +68,6 @@ body {
 
 .image-title {
     margin-top: 10px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    width: 90%;
 }
 
 .image-title p {
@@ -83,7 +76,7 @@ body {
     line-height: 1.5;
     font-weight: 400;
     margin: 0;
-    padding: 0;
+    text-align: center;
 }
 
 h1 {
@@ -120,4 +113,13 @@ p {
 
 .button:active {
     transform: scale(0.95);
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+
+    .message-container,
+    .image-container {
+        max-width: 80%;
+    }
 }
